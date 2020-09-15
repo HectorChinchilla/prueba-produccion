@@ -1,0 +1,50 @@
+main {
+    max-width: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 1rem;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.item-a {
+    grid-row: 1 / 3;
+}
+
+.item-b {
+    grid-column: 3 / 5;
+}
+
+.item-c {
+    grid-row: 2 / 4;
+}
+
+.item-d {
+    grid-column: 3 / 5;
+}
+
+
+/* h1 {
+    color: cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+h4 {
+    color: rgb(23, 136, 211);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(30, 182, 30);
+    }
+}

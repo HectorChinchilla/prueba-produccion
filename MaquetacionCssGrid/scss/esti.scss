@@ -1,0 +1,19 @@
+$dark-theme: true !default;
+$primary-color: #8275b9 !default;
+$accent-color: white !default;
+$color_link: rgba(240, 225, 18, 0.945);
+#uno {
+    color: $color_link;
+}
+
+.prueba {
+    background-color: $primary-color;
+}
+
+h4 {
+    color: $accent-color;
+}
+
+body {
+    background: $color_link;
+}
